@@ -13,10 +13,10 @@ mat-icon {
     justify-content: center;
     align-items: center;
     height: 34px;
-    gap: 100px;
+    gap: 140px;
     color: black;
     /* border-bottom: 2.9px solid #0000001a; */
-    background-color: #184d53;
+    background-color: #454e4f;
     white-space: nowrap;
 }
 

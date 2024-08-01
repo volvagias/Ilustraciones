@@ -1,0 +1,71 @@
+/* Logo y botones principales */
+
+.head-tools {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    background-color: #184d53;
+}
+
+.logo-ctn {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-ctn img {
+    width: 34%;
+    cursor: pointer;
+}
+
+.buttons-ctn {
+    display: flex;
+    gap: 17px;
+}
+
+.buttons-ctn button {
+    height: 35px;
+    width: 97px;
+    font-family: "Roboto Mono", monospace;
+    letter-spacing: 1px;
+    
+    white-space: nowrap;
+    border: unset;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.home-areas-btn {
+    background-color: #184d53;
+    color: white;
+    transition: all 0.05s ease;
+}
+
+.buttons-ctn .home-areas-btn:hover {
+    border: 3px solid white;
+}
+
+.contact-btn {
+    background-color: #184d53;
+    color: white;
+    transition: all 0.05s ease;
+}
+
+.buttons-ctn .contact-btn:hover {
+    border: 3px solid white;
+}
+
+@media (max-width: 700px) {
+
+    .head-tools {
+        flex-direction: column;
+        width: 100%;
+        position: fixed;
+        gap: 15px;
+    }
+
+    .logo-ctn {
+        display: none;
+    }
+}
