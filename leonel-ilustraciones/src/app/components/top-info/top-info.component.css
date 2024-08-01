@@ -14,7 +14,8 @@ mat-icon {
     height: 34px;
     gap: 100px;
     color: black;
-    border-bottom: 2.9px solid #0000001a;
+    /* border-bottom: 2.9px solid #0000001a; */
+    background-color: aqua;
     white-space: nowrap;
 }
 
