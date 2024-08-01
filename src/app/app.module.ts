@@ -9,13 +9,15 @@ import { TopInfoComponent } from './components/top-info/top-info.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 import { MatIconModule } from '@angular/material/icon';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    TopInfoComponent
+    TopInfoComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
