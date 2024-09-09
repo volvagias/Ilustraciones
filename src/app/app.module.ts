@@ -11,6 +11,8 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 import { MatIconModule } from '@angular/material/icon';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
+import { LightboxModule } from 'ng-gallery/lightbox';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { GalleryComponent } from './components/gallery/gallery.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatIconModule
+    MatIconModule,
+    LightboxModule
   ],
   providers: [
     provideClientHydration(),

@@ -1,0 +1,8 @@
+.ctn {
+    display: flex;
+    gap: 20px;
+}
+
+img {
+    max-width: 205px;
+}
