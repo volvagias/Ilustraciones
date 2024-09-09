@@ -10,6 +10,7 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
 
 import { MatIconModule } from '@angular/material/icon';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     HomeComponent,
     HeaderComponent,
     TopInfoComponent,
-    NavbarComponent
+    NavbarComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
