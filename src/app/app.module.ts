@@ -13,7 +13,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { LightboxModule } from 'ng-gallery/lightbox';
 import { GalleryPageComponent } from './pages/gallery-page/gallery-page.component';
-
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 @NgModule({
   declarations: [
@@ -29,6 +29,7 @@ import { GalleryPageComponent } from './pages/gallery-page/gallery-page.componen
     BrowserModule,
     AppRoutingModule,
     MatIconModule,
+    MatCheckboxModule,
     LightboxModule
   ],
   providers: [

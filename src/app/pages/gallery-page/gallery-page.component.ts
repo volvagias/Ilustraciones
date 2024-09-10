@@ -7,4 +7,24 @@ import { Component } from '@angular/core';
 })
 export class GalleryPageComponent {
 
+  allCheckbox: boolean = true;
+  albumCheckbox: boolean = false;
+  
+  toggleCheckbox(type: string, event: any): void {
+    switch(type) {
+      case 'all':
+        this.allCheckbox = event.checked;
+        if (event.checked) {
+          this.albumCheckbox = false; // Desmarca el checkbox de álbumes
+        }
+        break;
+      case 'albumes':
+        this.albumCheckbox = event.checked;
+        if (event.checked) {
+          this.allCheckbox = false; // Desmarca el checkbox de todos
+        }
+        break;
+    }
+  }
+  
 }

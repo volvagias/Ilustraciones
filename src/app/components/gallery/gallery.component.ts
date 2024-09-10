@@ -13,14 +13,14 @@ export class GalleryComponent {
 
   items: GalleryItem[] = [
     // Albumes
-    new ImageItem({ src: '/assets/images/cronicas.png', thumb: '/assets/images/cronicas.png' }),
-    new ImageItem({ src: '/assets/images/maldita-libertad-sin-logo.png', thumb: '/assets/images/maldita-libertad-sin-logo.png' }),
-    new ImageItem({ src: '/assets/images/lullabies-sin-logo.png', thumb: '/assets/images/lullabies-sin-logo.png' }),
-    new ImageItem({ src: '/assets/images/final-fire.png', thumb: '/assets/images/final-fire.png' }),
-    new ImageItem({ src: '/assets/images/magitek.png', thumb: '/assets/images/magitek.png' }),
+    new ImageItem({ src: '/assets/images/albumes/cronicas.png', thumb: '/assets/images/albumes/cronicas.png' }),
+    new ImageItem({ src: '/assets/images/albumes/maldita-libertad-sin-logo.png', thumb: '/assets/images/albumes/maldita-libertad-sin-logo.png' }),
+    new ImageItem({ src: '/assets/images/albumes/lullabies-sin-logo.png', thumb: '/assets/images/albumes/lullabies-sin-logo.png' }),
+    new ImageItem({ src: '/assets/images/albumes/final-fire.png', thumb: '/assets/images/albumes/final-fire.png' }),
+    new ImageItem({ src: '/assets/images/albumes/magitek.png', thumb: '/assets/images/albumes/magitek.png' }),
 
     // Videojuegos
-    new ImageItem({ src: '/assets/images/magitek.png', thumb: '/assets/images/magitek.png' }),
+    new ImageItem({ src: '/assets/images/videojuegos/link.jpeg', thumb: '/assets/images/videojuegos/link.jpeg' }),
   ];
 
   ngOnInit(): void {

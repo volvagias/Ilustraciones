@@ -1,3 +1,9 @@
 <app-top-info/>
-<app-header/>
-<app-gallery/>
+
+<app-header *ngIf="albumCheckbox"/>
+
+<mat-checkbox (change)="toggleCheckbox('all', $event)" [checked]="allCheckbox">Todos</mat-checkbox>
+<mat-checkbox (change)="toggleCheckbox('albumes', $event)" [checked]="albumCheckbox">Albumes</mat-checkbox>
+
+
+<app-gallery *ngIf="allCheckbox"/>
