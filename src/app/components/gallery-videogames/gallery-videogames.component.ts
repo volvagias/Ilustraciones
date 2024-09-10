@@ -7,6 +7,9 @@ import { Gallery, GalleryItem, ImageItem } from 'ng-gallery';
   styleUrl: './gallery-videogames.component.css'
 })
 export class GalleryVideogamesComponent {
+
+  galleryId = 'videojuegosGallery';
+
   constructor(private gallery: Gallery) {}
 
   items: GalleryItem[] = [
@@ -16,7 +19,7 @@ export class GalleryVideogamesComponent {
 
   ngOnInit(): void {
     // Cargar los elementos de la galería
-    const galleryRef = this.gallery.ref();
+    const galleryRef = this.gallery.ref(this.galleryId); // Le paso una referencia para que no me abra imagenes de otra galería.
     galleryRef.load(this.items);
   }
 

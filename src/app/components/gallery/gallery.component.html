@@ -1,7 +1,8 @@
 <br><br>
 <div class="ctn">
    
-    <img *ngFor="let item of items; let i = index" [lightbox]="i" [src]="item.data?.thumb"/>
+    <img *ngFor="let item of items; let i = index" [lightbox]="i" [gallery]="galleryId" [src]="item.data?.thumb"/>
+    <!-- galleryId lo cree yo para darle un identificador único a la galería y no me abra otras imagenes de otras galerías. -->
 
 </div>
 
