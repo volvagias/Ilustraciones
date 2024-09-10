@@ -12,6 +12,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { LightboxModule } from 'ng-gallery/lightbox';
+import { GalleryPageComponent } from './pages/gallery-page/gallery-page.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { LightboxModule } from 'ng-gallery/lightbox';
     HeaderComponent,
     TopInfoComponent,
     NavbarComponent,
-    GalleryComponent
+    GalleryComponent,
+    GalleryPageComponent
   ],
   imports: [
     BrowserModule,
