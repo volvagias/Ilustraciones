@@ -9,19 +9,29 @@ export class GalleryPageComponent {
 
   allCheckbox: boolean = true;
   albumCheckbox: boolean = false;
+  videogamesCheckbox: boolean = false;
   
   toggleCheckbox(type: string, event: any): void {
     switch(type) {
       case 'all':
-        this.allCheckbox = event.checked;
+        this.allCheckbox = event.checked; // Actualiza el estado actual del checkbox a checkeado.
         if (event.checked) {
-          this.albumCheckbox = false; // Desmarca el checkbox de álbumes
+          this.albumCheckbox = true; 
+          this.videogamesCheckbox = true; 
         }
         break;
       case 'albumes':
-        this.albumCheckbox = event.checked;
+        this.albumCheckbox = event.checked; // Actualiza el estado actual del checkbox a checkeado.
         if (event.checked) {
-          this.allCheckbox = false; // Desmarca el checkbox de todos
+          this.allCheckbox = false; // Desmarca el checkbox de todos.
+          this.videogamesCheckbox = false; // Desmarca el checkbox de videojuegos.
+        }
+        break;
+      case 'videojuegos':
+        this.videogamesCheckbox = event.checked; // Actualiza el estado actual del checkbox a checkeado.
+        if (event.checked) {
+          this.allCheckbox = false; // Desmarca el checkbox de todos.
+          this.albumCheckbox = false; // Desmarca el checkbox de albumes.
         }
         break;
     }

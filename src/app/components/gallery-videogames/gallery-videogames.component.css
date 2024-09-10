@@ -1,0 +1,25 @@
+.ctn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    background-color: #184d53;
+}
+
+img {
+    width: 205px;
+    border-radius: 4px;
+    transition: all ease 0.3s;
+}
+
+img:hover {
+    opacity: 70%;
+}
+
+
+@media (max-width: 700px) {
+    .ctn {
+        flex-direction: column;
+    }
+}

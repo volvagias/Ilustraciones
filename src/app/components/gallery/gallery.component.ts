@@ -17,10 +17,7 @@ export class GalleryComponent {
     new ImageItem({ src: '/assets/images/albumes/maldita-libertad-sin-logo.png', thumb: '/assets/images/albumes/maldita-libertad-sin-logo.png' }),
     new ImageItem({ src: '/assets/images/albumes/lullabies-sin-logo.png', thumb: '/assets/images/albumes/lullabies-sin-logo.png' }),
     new ImageItem({ src: '/assets/images/albumes/final-fire.png', thumb: '/assets/images/albumes/final-fire.png' }),
-    new ImageItem({ src: '/assets/images/albumes/magitek.png', thumb: '/assets/images/albumes/magitek.png' }),
-
-    // Videojuegos
-    new ImageItem({ src: '/assets/images/videojuegos/link.jpeg', thumb: '/assets/images/videojuegos/link.jpeg' }),
+    new ImageItem({ src: '/assets/images/albumes/magitek.png', thumb: '/assets/images/albumes/magitek.png' })
   ];
 
   ngOnInit(): void {
