@@ -19,7 +19,7 @@
     display: flex;
     justify-content: center;
     background-color: #ffffff;
-    box-shadow: inset 1px -7px 14px 15px #00000033;
+    box-shadow: inset 1px -7px 7px 15px #00000033;
 }
 
 @media (max-width: 700px) {
