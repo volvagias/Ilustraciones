@@ -1,9 +1,8 @@
 .ctn {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 50px;
+    padding: 12.5px 50px 12.5px 50px;
     background-color: #184d53;
 }
 

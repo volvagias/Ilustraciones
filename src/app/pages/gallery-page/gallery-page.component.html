@@ -5,7 +5,9 @@
 <mat-checkbox (change)="toggleCheckbox('all', $event)" [checked]="allCheckbox">Todos</mat-checkbox>
 <mat-checkbox (change)="toggleCheckbox('albumes', $event)" [checked]="albumCheckbox">Albumes</mat-checkbox>
 <mat-checkbox (change)="toggleCheckbox('videojuegos', $event)" [checked]="videogamesCheckbox">Videojuegos</mat-checkbox>
+<mat-checkbox (change)="toggleCheckbox('otros', $event)" [checked]="othersCheckbox">Otros</mat-checkbox>
 
 
 <app-gallery *ngIf="allCheckbox || albumCheckbox"/>
+<app-gallery-others *ngIf="allCheckbox || othersCheckbox"/>
 <app-gallery-videogames *ngIf="allCheckbox || videogamesCheckbox"/>
