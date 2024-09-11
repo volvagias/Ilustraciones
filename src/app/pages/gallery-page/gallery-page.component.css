@@ -1,14 +1,18 @@
 ::ng-deep .checkbox {
-    --mdc-checkbox-selected-icon-color: #184d53 !important; /* Cambia el color del tilde */
+    --mdc-checkbox-selected-icon-color: #184d53 !important; /* Cambia el color de fondo */
+    --mdc-checkbox-selected-checkmark-color: #ff7800 !important; /* Cambia el color del tilde */
     --mdc-checkbox-selected-focus-icon-color: #184d53 !important;
-    --mdc-checkbox-selected-hover-icon-color: orange !important;
+    --mdc-checkbox-selected-hover-icon-color: #184d53 !important;
     --mdc-checkbox-selected-pressed-icon-color: orange !important;
+    --mdc-checkbox-selected-focus-state-layer-color: #5dff4000; /* Circulo sombra de color sobre texto */
+    --mdc-checkbox-selected-hover-state-layer-color: #5dff4000; /* Circulo sombra de color sobre checkbox */
+    --mdc-checkbox-selected-pressed-state-layer-color: #4050ff00;
 }
 
 /* Al hacer hover en el texto repercute en el checkbox */
 
 ::ng-deep .checkbox:hover {
-    --mdc-checkbox-selected-icon-color: orange !important; 
+    --mdc-checkbox-selected-icon-color: #184d53 !important; 
 }
 
 .ctn {

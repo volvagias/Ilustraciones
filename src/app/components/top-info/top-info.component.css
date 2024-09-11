@@ -16,7 +16,7 @@ mat-icon {
     gap: 140px;
     color: black;
     /* border-bottom: 2.9px solid #0000001a; */
-    background-color: #454e4f;
+    background-color: #1c2223;
     white-space: nowrap;
 }
 
@@ -38,6 +38,11 @@ mat-icon {
 .bi-instagram, .bi-facebook {
     color: white;
     font-size: 20px;
+    transition: all ease 0.3s;
+}
+
+.bi-instagram:hover, .bi-facebook:hover {
+    color: orange;
 }
 
 /* FIN Información de contacto */
