@@ -16,7 +16,6 @@ img:hover {
     opacity: 70%;
 }
 
-
 @media (max-width: 700px) {
     .ctn {
         flex-direction: column;
