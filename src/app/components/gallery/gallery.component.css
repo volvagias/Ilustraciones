@@ -32,4 +32,8 @@ img:hover {
     .ctn {
         flex-direction: column;
     }
+
+    .h2-ctn {
+        justify-content: center;
+    }
 }
