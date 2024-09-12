@@ -17,6 +17,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { GalleryVideogamesComponent } from './components/gallery-videogames/gallery-videogames.component';
 import { GalleryOthersComponent } from './components/gallery-others/gallery-others.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ClipboardModule } from '@angular/cdk/clipboard';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { FooterComponent } from './components/footer/footer.component';
     AppRoutingModule,
     MatIconModule,
     MatCheckboxModule,
-    LightboxModule
+    LightboxModule,
+    ClipboardModule
   ],
   providers: [
     provideClientHydration(),
