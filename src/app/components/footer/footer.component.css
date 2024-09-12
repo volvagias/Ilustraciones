@@ -17,6 +17,7 @@ footer {
     font-size: 13.6px;
     background: url('/assets/backgrounds/footer.png');
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
