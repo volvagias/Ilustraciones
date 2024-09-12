@@ -28,6 +28,11 @@
     background-repeat: no-repeat;
 }
 
+span {
+    font-weight: bold;
+    font-family: "Roboto Mono", monospace;
+}
+
 @media (max-width: 700px) {
     .ctn {
         flex-direction: column;
