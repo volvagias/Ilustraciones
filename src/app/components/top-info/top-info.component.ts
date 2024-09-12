@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Clipboard } from '@angular/cdk/clipboard';
 
 @Component({
   selector: 'app-top-info',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrl: './top-info.component.css'
 })
 export class TopInfoComponent {
+
+  constructor(private clipboard: Clipboard) {}
+
+  linkCopy() {
+    const copy = 'bruzzeseyasociados@gmail.com';
+  
+    this.clipboard.copy(copy);
+  }
 
 }

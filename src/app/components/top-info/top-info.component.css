@@ -20,6 +20,24 @@ mat-icon {
     white-space: nowrap;
 }
 
+.info button {
+    background-color: unset;
+    border-style: none;
+}
+
+.info button i {
+    font-size: 20px;
+    padding: 3px;
+    color: white;
+    border-radius: 7px;
+    transition: all ease 0.3s;
+}
+
+.info button:hover i {
+    cursor: pointer;
+    color: orange;
+}
+
 .top-info-left, .top-info-right {
     display: flex;
     gap: 15px;
