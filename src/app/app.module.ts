@@ -16,6 +16,7 @@ import { GalleryPageComponent } from './pages/gallery-page/gallery-page.componen
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { GalleryVideogamesComponent } from './components/gallery-videogames/gallery-videogames.component';
 import { GalleryOthersComponent } from './components/gallery-others/gallery-others.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { GalleryOthersComponent } from './components/gallery-others/gallery-othe
     GalleryComponent,
     GalleryPageComponent,
     GalleryVideogamesComponent,
-    GalleryOthersComponent
+    GalleryOthersComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
