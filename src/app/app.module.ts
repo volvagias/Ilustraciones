@@ -9,7 +9,7 @@ import { TopInfoComponent } from './components/top-info/top-info.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 import { MatIconModule } from '@angular/material/icon';
-import { NavbarComponent } from './components/navbar/navbar.component';
+
 import { GalleryComponent } from './components/gallery/gallery.component';
 import { LightboxModule } from 'ng-gallery/lightbox';
 import { GalleryPageComponent } from './pages/gallery-page/gallery-page.component';
@@ -25,7 +25,6 @@ import { ClipboardModule } from '@angular/cdk/clipboard';
     HomeComponent,
     HeaderComponent,
     TopInfoComponent,
-    NavbarComponent,
     GalleryComponent,
     GalleryPageComponent,
     GalleryVideogamesComponent,
