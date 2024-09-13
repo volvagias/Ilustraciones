@@ -18,6 +18,7 @@ import { GalleryVideogamesComponent } from './components/gallery-videogames/gall
 import { GalleryOthersComponent } from './components/gallery-others/gallery-others.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ClipboardModule } from '@angular/cdk/clipboard';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ClipboardModule } from '@angular/cdk/clipboard';
     GalleryPageComponent,
     GalleryVideogamesComponent,
     GalleryOthersComponent,
-    FooterComponent
+    FooterComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
