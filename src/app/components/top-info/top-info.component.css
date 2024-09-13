@@ -12,6 +12,11 @@ mat-icon {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    width: calc(100vw - 17px);
+    position: fixed;
+    z-index: 999;
+
     height: 34px;
     gap: 140px;
     color: black;
