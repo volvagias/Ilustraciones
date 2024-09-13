@@ -23,6 +23,10 @@
     background-color: #184d53;
 }
 
+::ng-deep .cdk-global-overlay-wrapper {      /* Fondo oscuro para la galería de imagenes. ng-deep aplica a toda la aplicación. */
+    background-color: #040404 !important;
+}
+
 img {
     width: 205px;
     border-radius: 4px;
@@ -32,6 +36,7 @@ img {
 img:hover {
     opacity: 70%;
 }
+
 
 @media (max-width: 700px) {
     .ctn {
