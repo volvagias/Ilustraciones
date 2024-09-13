@@ -1,0 +1,23 @@
+/* El carousel está hecho con bootstrap. 
+
+1 - Se instala: npm install bootstrap @popperjs/core
+
+2 - Se agrega esto en angular.json: 
+"styles": [
+  "node_modules/bootstrap/dist/css/bootstrap.min.css",
+  "src/styles.css"
+],
+"scripts": [
+  "node_modules/@popperjs/core/dist/umd/popper.min.js",
+  "node_modules/bootstrap/dist/js/bootstrap.min.js"
+]
+
+3 - Se agrega el contenido del html al componente.
+
+*/
+
+.carousel-inner img {
+  width: 100%;         /* Ocupa el 100% del ancho del contenedor */
+  height: 500px;       /* Establece una altura fija de 500px */
+  object-fit: cover;   /* Asegura que las imágenes cubran el espacio sin deformarse */
+}
