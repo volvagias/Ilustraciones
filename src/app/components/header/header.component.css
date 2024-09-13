@@ -1,11 +1,13 @@
 /* Logo y botones principales */
 
-.head-tools {
+header {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     padding: 12px;
     background-color: #184d53;
+    box-shadow: 0px 5px 20px 3px #0003;
 }
 
 .logo-ctn {
@@ -63,7 +65,7 @@
 
 @media (max-width: 700px) {
 
-    .head-tools {
+    header {
         flex-direction: column;
         width: 100%;
         position: fixed;
