@@ -1,6 +1,5 @@
 .h2-ctn {
     display: flex;
-    background-color: #184d53;
     padding: 12.5px 50px 12.5px 50px;
 }
 
@@ -12,7 +11,7 @@
     background: url('/assets/backgrounds/h2.png');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 27px 30px 25px 30px;
+    padding: 27px 95px 25px 30px;
 }
 
 .ctn {
@@ -20,7 +19,6 @@
     align-items: center;
     gap: 20px;
     padding: 12.5px 50px 12.5px 50px;
-    background-color: #184d53;
 }
 
 img {

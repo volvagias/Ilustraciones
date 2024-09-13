@@ -1,6 +1,5 @@
 .h2-ctn {
     display: flex;
-    background-color: #184d53;
     padding: 12.5px 50px 12.5px 50px;
 }
 
@@ -12,7 +11,7 @@
     background: url('/assets/backgrounds/h2.png');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 15px 30px 15px 30px;
+    padding: 15px 76px 15px 30px;
 }
 
 .ctn {
@@ -20,7 +19,6 @@
     align-items: center;
     gap: 20px;
     padding: 0 50px 12.5px 50px;
-    background-color: #184d53;
 }
 
 ::ng-deep .cdk-global-overlay-wrapper {      /* Fondo oscuro para la galería de imagenes. ng-deep aplica a toda la aplicación. */
@@ -46,5 +44,6 @@ img:hover {
 
     .h2-ctn {
         justify-content: center;
+        margin-top: 20px;
     }
 }

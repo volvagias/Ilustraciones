@@ -1,16 +1,21 @@
-<app-top-info/>
+<div class="body-gallery">
 
-<app-header/>
+    <app-top-info/>
 
-<div class="ctn">
-    <mat-checkbox class="checkbox" (change)="toggleCheckbox('all', $event)" [checked]="allCheckbox"><span>Todos</span></mat-checkbox>
-    <mat-checkbox class="checkbox" (change)="toggleCheckbox('albumes', $event)" [checked]="albumCheckbox"><span>Álbumes</span></mat-checkbox>
-    <mat-checkbox class="checkbox" (change)="toggleCheckbox('videojuegos', $event)" [checked]="videogamesCheckbox"><span>Videojuegos</span></mat-checkbox>
-    <mat-checkbox class="checkbox" (change)="toggleCheckbox('otros', $event)" [checked]="othersCheckbox"><span>Otros</span></mat-checkbox>
+    <app-header/>
+
+    <div class="ctn">
+        <mat-checkbox class="checkbox" (change)="toggleCheckbox('all', $event)" [checked]="allCheckbox"><span>Todos</span></mat-checkbox>
+        <mat-checkbox class="checkbox" (change)="toggleCheckbox('albumes', $event)" [checked]="albumCheckbox"><span>Álbumes</span></mat-checkbox>
+        <mat-checkbox class="checkbox" (change)="toggleCheckbox('videojuegos', $event)" [checked]="videogamesCheckbox"><span>Videojuegos</span></mat-checkbox>
+        <mat-checkbox class="checkbox" (change)="toggleCheckbox('otros', $event)" [checked]="othersCheckbox"><span>Otros</span></mat-checkbox>
+    </div>
+
+    <app-gallery *ngIf="allCheckbox || albumCheckbox"/>
+    <app-gallery-videogames *ngIf="allCheckbox || videogamesCheckbox"/>
+    <app-gallery-others *ngIf="allCheckbox || othersCheckbox"/>
+    
 </div>
+    <app-footer/>
 
-<app-gallery *ngIf="allCheckbox || albumCheckbox"/>
-<app-gallery-videogames *ngIf="allCheckbox || videogamesCheckbox"/>
-<app-gallery-others *ngIf="allCheckbox || othersCheckbox"/>
 
-<app-footer/>

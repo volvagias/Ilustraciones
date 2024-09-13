@@ -20,6 +20,7 @@ body
   overflow-x: auto;
   overflow-y: auto;
   font-family: 'Georgia', serif;
+  background-color: #184d53;
 }
 
 button {

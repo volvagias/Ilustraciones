@@ -50,7 +50,6 @@ footer a {
 
 .redes-ctn {
     display: flex;
-    margin-top: 90px;
 }
 
 .bi-instagram, .bi-facebook {
@@ -66,7 +65,6 @@ footer a {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    margin-top: 90px;
 }
 
 .email {
