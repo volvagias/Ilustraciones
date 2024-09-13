@@ -6,7 +6,7 @@ header {
     align-items: center;
     position: relative;
     padding: 12px;
-    background-color: #184d53;
+    background-color: #184d53b8;
     box-shadow: 0px 5px 20px 3px #0003;
 }
 
@@ -34,6 +34,7 @@ header {
     white-space: nowrap;
     border: unset;
     font-weight: bold;
+    background-color: #184d53b8;
 
     cursor: pointer;
 }
