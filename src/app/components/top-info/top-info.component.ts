@@ -11,7 +11,7 @@ export class TopInfoComponent {
   constructor(private clipboard: Clipboard) {}
 
   linkCopy() {
-    const copy = 'bruzzeseyasociados@gmail.com';
+    const copy = 'coverartstudioleonel@gmail.com';
   
     this.clipboard.copy(copy);
   }

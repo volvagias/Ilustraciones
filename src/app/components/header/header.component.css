@@ -1,18 +1,9 @@
 /* Logo y botones principales */
 
 header {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    padding: 12px;
-    background-color: #184d53b8;
-    box-shadow: 0px 5px 20px 3px #0003; */
-
-    /* Fijarse si usar el de arriba o el de abajo según gustos. */
-
     display: flex;
-    width: 100%;
+    width: calc(100% - 17.4px);
+    height: 56px;
     justify-content: center;
     align-items: center;
     margin-top: 34px;
