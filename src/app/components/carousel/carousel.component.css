@@ -16,8 +16,18 @@
 
 */
 
+.carousel {
+  margin-top: 90px;
+}
+
 .carousel-inner img {
   width: 100%;         /* Ocupa el 100% del ancho del contenedor */
   height: 500px;       /* Establece una altura fija de 500px */
   object-fit: cover;   /* Asegura que las imágenes cubran el espacio sin deformarse */
+}
+
+@media (max-width: 700px) {
+  .carousel {
+    margin-top: 0;
+  }
 }
