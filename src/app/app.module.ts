@@ -20,6 +20,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ClipboardModule } from '@angular/cdk/clipboard';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { ContactComponent } from './components/contact/contact.component';
     MatIconModule,
     MatCheckboxModule,
     LightboxModule,
-    ClipboardModule
+    ClipboardModule,
+    ReactiveFormsModule
   ],
   providers: [
     provideClientHydration(),
