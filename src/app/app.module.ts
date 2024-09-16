@@ -20,8 +20,10 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ClipboardModule } from '@angular/cdk/clipboard';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { ContactComponent } from './components/contact/contact.component';
+
 import { ReactiveFormsModule } from '@angular/forms';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
+import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,8 @@ import { ContactPageComponent } from './pages/contact-page/contact-page.componen
     MatCheckboxModule,
     LightboxModule,
     ClipboardModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    SweetAlert2Module
   ],
   providers: [
     provideClientHydration(),
