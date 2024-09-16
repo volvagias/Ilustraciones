@@ -12,7 +12,7 @@ header {
     /* Fijarse si usar el de arriba o el de abajo según gustos. */
 
     display: flex;
-    width: calc(100vw - 17px);
+    width: 100%;
     justify-content: center;
     align-items: center;
     margin-top: 34px;
