@@ -21,6 +21,7 @@ import { ClipboardModule } from '@angular/cdk/clipboard';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     GalleryOthersComponent,
     FooterComponent,
     CarouselComponent,
-    ContactComponent
+    ContactComponent,
+    ContactPageComponent
   ],
   imports: [
     BrowserModule,
