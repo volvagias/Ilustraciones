@@ -128,7 +128,7 @@ form p {
         display: flex;
         width: 100%;
         flex-direction: column;
-        background-color: #ebd2b6c7;
+        background-color: transparent;
         padding: 10px 30px 35px 30px;
     }
 
@@ -164,7 +164,7 @@ form p {
         display: flex;
         width: 100%;
         flex-direction: column;
-        background-color: #ebd2b6c7;
+        background-color: transparent;
         padding: 10px 160px 30px 160px;
     }
 
