@@ -33,6 +33,13 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 /******* SweetAlert2 *******/
 
+/* Popup - Copiado al portapapeles */
+
+.custom-popup {
+  width: 300px!important;
+  height: 204px!important;
+}
+
 /* Popup Datos Incorrectos */
 
 .swal2-height-auto {
@@ -87,3 +94,4 @@ div:where(.swal2-container) div:where(.swal2-popup) {
   }
 }
 /* FIN Popup Datos Incorrectos */
+

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Clipboard } from '@angular/cdk/clipboard';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-top-info',
@@ -14,6 +15,17 @@ export class TopInfoComponent {
     const copy = 'coverartstudioleonel@gmail.com';
   
     this.clipboard.copy(copy);
+
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: "Copiado al portapapeles.",
+      showConfirmButton: false,
+      timer: 1400,
+      customClass: {
+        popup: 'custom-popup'
+      }
+    });
   }
 
 }
