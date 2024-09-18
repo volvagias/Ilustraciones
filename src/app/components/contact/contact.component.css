@@ -5,7 +5,7 @@
 .form-ctn {
     display: flex;
     justify-content: center;
-    background: url('/assets/backgrounds/gallery-background.png');
+    background: url('/assets/backgrounds/home-random-background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
