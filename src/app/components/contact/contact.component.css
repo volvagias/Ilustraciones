@@ -146,10 +146,11 @@ form p {
         display: flex;
         justify-content: center;
         width: 100%; 
+        padding: 50px 0 0 0;
     }
 
     .logo-ctn img {
-        width: 171px;
+        width: 300px;
     }
 }
 
@@ -175,16 +176,17 @@ form p {
         font-size: 20px;
         text-align: center;
         border-bottom: 3px solid white;
-        padding: 20px 0 0 0;
+        background-color: transparent;
     }
 
     .logo-ctn {
         display: flex;
         justify-content: center;
         width: 100%; 
+        padding: 50px 0 0 0;
     }
 
     .logo-ctn img {
-        width: 171px;
+        width: 500px;
     }
 }
