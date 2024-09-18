@@ -31,7 +31,11 @@ form {
 form p {
     margin: 0;
     font-size: 21px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
     color: white;
+    background-color: #184d53b8;
     font-weight: bold;
     letter-spacing: 2px;
     font-family: "Roboto Mono", monospace;
@@ -102,7 +106,7 @@ form p {
     border: 3px solid #ffffff;
     font-weight: bold;
     cursor: pointer;
-    background-color: transparent;
+    background-color: #184d53b8;
 
     transition: background-color 0.3s ease;
 }
@@ -136,7 +140,7 @@ form p {
         font-size: 20px;
         text-align: center;
         border-bottom: 3px solid white;
-        padding: 20px 0 0 0;
+        background-color: transparent;
     }
 
     .logo-ctn {
