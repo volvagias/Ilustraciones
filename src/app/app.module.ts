@@ -24,6 +24,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
+import { LogoComponent } from './components/logo/logo.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
     FooterComponent,
     CarouselComponent,
     ContactComponent,
-    ContactPageComponent
+    ContactPageComponent,
+    LogoComponent
   ],
   imports: [
     BrowserModule,
