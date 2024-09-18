@@ -13,19 +13,17 @@ header {
     box-shadow: 0px 5px 20px 3px #0003;
 }
 
-.logo-ctn {
-    display: flex;
-    justify-content: center;
-}
-
-.logo-ctn img {
-    width: 34%;
+img {
+    width: 10%;
+    padding: 10px 10px 15px 10px;
+    margin-left: auto;
     cursor: pointer;
 }
 
 .buttons-ctn {
     display: flex;
     gap: 17px;
+    margin-right: auto;
 }
 
 .buttons-ctn button {
