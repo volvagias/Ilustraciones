@@ -76,7 +76,11 @@ img {
         gap: 15px;
     }
 
-    .logo-ctn {
+    img {
         display: none;
+    }
+
+    .buttons-ctn {
+        margin-right: 0;
     }
 }
