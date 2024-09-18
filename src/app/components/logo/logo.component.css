@@ -1,0 +1,23 @@
+.ctn {
+    display: flex;
+    justify-content: center;
+
+    background: url('/assets/backgrounds/gallery-background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.ctn img {
+    width: 500px;
+}
+
+@media (max-width: 700px) {
+    .ctn {
+        background-size: unset;
+    }
+
+    .ctn img {
+        width: 300px;
+    }
+}
