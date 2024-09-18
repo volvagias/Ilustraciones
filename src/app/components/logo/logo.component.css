@@ -14,7 +14,7 @@
 
 @media (max-width: 700px) {
     .ctn {
-        background-size: unset;
+        background-size: cover;
     }
 
     .ctn img {
