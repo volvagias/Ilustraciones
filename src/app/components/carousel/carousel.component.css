@@ -30,4 +30,8 @@
   .carousel {
     margin-top: 0;
   }
+
+  .carousel-inner img {
+    height: 100vh;
+  }
 }
