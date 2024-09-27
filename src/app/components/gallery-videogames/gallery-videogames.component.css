@@ -9,9 +9,9 @@
     font-family: "Roboto Mono", monospace;
 
     background: url('/assets/backgrounds/h2.png');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    padding: 27px 95px 25px 30px;
+    padding: 15px 33px 16px 30px;
 }
 
 .ctn {

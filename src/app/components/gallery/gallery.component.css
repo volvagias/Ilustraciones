@@ -9,7 +9,7 @@
     font-family: "Roboto Mono", monospace;
 
     background: url('/assets/backgrounds/h2.png');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     padding: 15px 76px 15px 30px;
 }
@@ -18,7 +18,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 0 50px 12.5px 50px;
+    padding: 12.5px 50px 12.5px 50px;
 }
 
 ::ng-deep .cdk-global-overlay-wrapper {      /* Fondo oscuro para la galería de imagenes. ng-deep aplica a toda la aplicación. */

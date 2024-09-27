@@ -9,16 +9,16 @@
     font-family: "Roboto Mono", monospace;
 
     background: url('/assets/backgrounds/h2.png');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    padding: 25px 56px 25px 30px;
+    padding: 17px 25px 22px 22px;
 }
 
 .ctn {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 0 50px 12.5px 50px;
+    padding: 12.5px 50px 12.5px 50px;
 }
 
 img {
