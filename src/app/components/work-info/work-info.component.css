@@ -6,6 +6,7 @@
 }
 
 section {
+    width: 100%;
     padding: 50px;
     background-color: #11373b;
     color: white;
