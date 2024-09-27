@@ -25,6 +25,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ContactPageComponent } from './pages/contact-page/contact-page.component';
 import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 import { LogoComponent } from './components/logo/logo.component';
+import { WorkInfoComponent } from './components/work-info/work-info.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { LogoComponent } from './components/logo/logo.component';
     CarouselComponent,
     ContactComponent,
     ContactPageComponent,
-    LogoComponent
+    LogoComponent,
+    WorkInfoComponent
   ],
   imports: [
     BrowserModule,
