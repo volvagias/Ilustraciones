@@ -12,7 +12,7 @@
 }
 
 .logo-ctn {
-    padding: 50px;
+    padding: 50px 0px 50px 50px;
 }
 
 .logo-ctn img {
@@ -24,7 +24,7 @@
 
 form {
     width: 100%;
-    padding: 50px 100px 100px 0px;
+    padding: 50px 100px 100px 30px;
 }
 
 form p {
@@ -34,10 +34,16 @@ form p {
     width: 100%;
     padding: 10px;
     color: white;
-    background-color: #184d53b8;
+    background-color: #0000004a;
     font-weight: bold;
     letter-spacing: 2px;
     font-family: "Roboto Mono", monospace;
+}
+
+.ctn-p {
+    display: flex; 
+    justify-content: center;
+    box-shadow: 0 4px 20px 5px rgb(0 0 0 / 44%);
 }
 
 .input-ctn {
@@ -143,6 +149,10 @@ form p {
         background-color: transparent;
     }
 
+    .ctn-p {
+        box-shadow: none;
+    }
+
     .logo-ctn {
         display: flex;
         justify-content: center;
@@ -179,6 +189,10 @@ form p {
         text-align: center;
         border-bottom: 3px solid white;
         background-color: transparent;
+    }
+
+    .ctn-p {
+        box-shadow: none;
     }
 
     .logo-ctn {
