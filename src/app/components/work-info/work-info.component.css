@@ -40,6 +40,7 @@ section p {
 .ctn-segmento {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
 
@@ -55,10 +56,14 @@ section p {
     padding: 15px;
 }
 
-.img-ctn img {
+.img-ctn .image {
     width: 500px;
     border-radius: 4px;
     box-shadow: 0px 5px 8px 2px #0003;
+}
+
+.img-ctn .logo {
+    width: 500px;
 }
 
 @media (max-width: 700px) {
@@ -74,6 +79,10 @@ section p {
         display: flex;
         flex-direction: column;
         padding: 0 15px 0 15px;
+        width: 100%;
+    }
+
+    .ctn-segmento .img-ctn {
         width: 100%;
     }
     
