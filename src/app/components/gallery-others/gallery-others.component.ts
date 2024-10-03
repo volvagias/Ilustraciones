@@ -16,7 +16,8 @@ export class GalleryOthersComponent {
     // Albumes
     new ImageItem({ src: '/assets/images/otros/aqua.jpeg', thumb: '/assets/images/otros/aqua.jpeg' }),
     new ImageItem({ src: '/assets/images/otros/requiem.jpeg', thumb: '/assets/images/otros/requiem.jpeg' }),
-    new ImageItem({ src: '/assets/images/otros/gotas-de-lluvia.jpeg', thumb: '/assets/images/otros/gotas-de-lluvia.jpeg' })
+    new ImageItem({ src: '/assets/images/otros/gotas-de-lluvia.jpeg', thumb: '/assets/images/otros/gotas-de-lluvia.jpeg' }),
+    new ImageItem({ src: '/assets/images/otros/envase-emocion.jpg', thumb: '/assets/images/otros/envase-emocion.jpg' })
   ];
 
   ngOnInit(): void {

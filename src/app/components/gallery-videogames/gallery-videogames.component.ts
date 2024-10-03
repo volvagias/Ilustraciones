@@ -15,6 +15,11 @@ export class GalleryVideogamesComponent {
   items: GalleryItem[] = [
     // Videojuegos
     new ImageItem({ src: '/assets/images/videojuegos/link.jpeg', thumb: '/assets/images/videojuegos/link.jpeg' }),
+    new ImageItem({ src: '/assets/images/videojuegos/niño.jpg', thumb: '/assets/images/videojuegos/niño.jpg' }),
+    new ImageItem({ src: '/assets/images/videojuegos/micro-5.jpg', thumb: '/assets/images/videojuegos/micro-5.jpg' }),
+    new ImageItem({ src: '/assets/images/videojuegos/micro-1.jpg', thumb: '/assets/images/videojuegos/micro-1.jpg' }),
+    new ImageItem({ src: '/assets/images/videojuegos/micro-3.jpg', thumb: '/assets/images/videojuegos/micro-3.jpg' }),
+    new ImageItem({ src: '/assets/images/videojuegos/micro-4.jpg', thumb: '/assets/images/videojuegos/micro-4.jpg' })
   ];
 
   ngOnInit(): void {
