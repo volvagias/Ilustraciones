@@ -52,12 +52,11 @@ img {
 
 .contact-btn {
     background-color: #184d53;
-    color: white;
+    color: orange;
     transition: all 0.05s ease;
 }
 
 .contact-btn:hover {
-    color: orange;
     border: 3px solid orange!important;
 }
 
@@ -82,5 +81,9 @@ img {
 
     .buttons-ctn {
         margin-right: 0;
+    }
+
+    .contact-btn {
+        color: orange;
     }
 }

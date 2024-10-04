@@ -1,6 +1,8 @@
 .ctn {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
     background: url('/assets/backgrounds/gallery-background.png');
     background-repeat: no-repeat;
@@ -10,6 +12,28 @@
 
 .ctn img {
     width: 500px;
+}
+
+.ctn a {
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto Mono", monospace;
+    letter-spacing: 1px;
+    padding: 5px;
+    margin-bottom: 70px;
+    transition: all ease 0.5s;
+
+    text-shadow: 
+    0 0 1px orange,   /* Brillo cercano */
+    0 0 10px orange,  /* Brillo intermedio */
+    0 0 4px orange,  /* Brillo más intenso */
+    0 0 2px orange;  /* Extremo del brillo */
+}
+
+.ctn a:hover {
+    transform: scale(1.2);
+    color: white;
 }
 
 @media (max-width: 700px) {
