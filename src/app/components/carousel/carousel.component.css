@@ -26,6 +26,30 @@
   object-fit: cover;   /* Asegura que las imágenes cubran el espacio sin deformarse */
 }
 
+.carousel-indicators {
+  bottom: 20px;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(2.5px);
+  }
+}
+
 @media (max-width: 700px) {
   .carousel {
     margin-top: 0;
