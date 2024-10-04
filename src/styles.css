@@ -1,0 +1,97 @@
+@import "../node_modules/bootstrap-icons/font/bootstrap-icons.css";
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+html, body {
+    height: 100vh; /* Centras la página evitando scrolls innecesarios */
+}
+
+body
+{
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+  color: #33353a;
+  overflow-x: auto;
+  overflow-y: auto;
+  font-family: 'Georgia', serif;
+  background-color: #184d53;
+}
+
+button {
+  font-family: 'Georgia', serif;
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/******* SweetAlert2 *******/
+
+/* Popup - Copiado al portapapeles */
+
+.custom-popup {
+  width: 300px!important;
+  height: 204px!important;
+}
+
+/* Popup Datos Incorrectos */
+
+.swal2-height-auto {
+  padding-right: 0 !important;
+}
+
+div:where(.swal2-container) div:where(.swal2-popup) {
+  background: #184d53cc!important;
+}
+
+.swal2-container .swal2-popup .swal2-icon.swal2-error {
+  border-color: white;
+  background-color: transparent; 
+}
+
+.swal2-error .swal2-x-mark [class^=swal2-x-mark-line] {
+  background-color: white;
+}
+
+.mat-display-medium, .mat-typography .mat-display-medium, .mat-typography h2 {
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+
+.swal2-html-container {
+  padding-top: 5px !important;
+  color: orange!important;
+}
+
+.swal2-actions button {
+  width: 114px;
+  height: 38px;
+  padding: 0 5px 0 5px;
+  background-color: transparent;
+  border: 3px solid white;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+.swal2-actions button:hover {
+  color: orange;
+  border: 3px solid orange;
+}
+
+@media (max-width: 700px) {
+  .mat-display-medium, .mat-typography .mat-display-medium, .mat-typography h2 {
+    font-size: 20px;
+  }
+}
+/* FIN Popup Datos Incorrectos */
+

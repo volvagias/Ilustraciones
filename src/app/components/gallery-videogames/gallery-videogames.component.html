@@ -1,0 +1,11 @@
+<div class="h2-ctn">
+    <h2>VIDEOJUEGOS</h2>
+</div>
+
+<div class="ctn">
+   
+    <img *ngFor="let item of items; let i = index" [lightbox]="i" [gallery]="galleryId" [src]="item.data?.thumb"/>
+    <!-- galleryId lo cree yo para darle un identificador único a la galería y no me abra otras imagenes de otras galerías. -->
+
+</div>
+

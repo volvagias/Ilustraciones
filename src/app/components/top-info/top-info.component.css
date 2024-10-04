@@ -1,0 +1,77 @@
+p {
+    margin: 0;
+    color: white;
+}
+
+mat-icon {
+    color: white;
+}
+
+/* Información de contacto en el header de la página */
+.top-info-ctn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: calc(100% - 17.4px);
+    position: fixed;
+    z-index: 999;
+
+    height: 34px;
+    gap: 140px;
+    color: black;
+    /* border-bottom: 2.9px solid #0000001a; */
+    background-color: #1c2223;
+    white-space: nowrap;
+}
+
+.info button {
+    background-color: unset;
+    border-style: none;
+}
+
+.info button i {
+    font-size: 20px;
+    padding: 3px;
+    color: white;
+    border-radius: 7px;
+    transition: all ease 0.3s;
+}
+
+.info button:hover i {
+    cursor: pointer;
+    color: orange;
+}
+
+.top-info-left, .top-info-right {
+    display: flex;
+    gap: 15px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info a {
+    padding: 5px;
+}
+
+.bi-instagram, .bi-facebook {
+    color: white;
+    font-size: 20px;
+    transition: all ease 0.3s;
+}
+
+.bi-instagram:hover, .bi-facebook:hover {
+    color: orange;
+}
+
+/* FIN Información de contacto */
+
+@media (max-width: 700px) {
+    .top-info-ctn {
+        display: none;
+    }
+}
