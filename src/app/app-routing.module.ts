@@ -8,8 +8,8 @@ const routes: Routes = [{
   path: 'home', 
   component: HomeComponent },
 { path: '', redirectTo: '/home', pathMatch: 'full'},
-{ path: 'gallery', component: GalleryPageComponent },
-{ path: 'contact', component: ContactPageComponent }
+{ path: 'arte-disco-musicos', component: GalleryPageComponent },
+{ path: 'ilustraciones-sencillos-bandas', component: ContactPageComponent }
 ];
 
 @NgModule({
