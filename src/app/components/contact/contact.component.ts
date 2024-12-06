@@ -70,12 +70,11 @@ export class ContactComponent {
       });
 
       emailjs.init('94i5NU6N3xpeSwrO0'); // Inicializa emailjs con tu usuario ID
-      let response = await emailjs.send("service_evsmi8f","template_h343t1r",{ // Espera la respuesta de emailjs.send
+      let response = await emailjs.send("service_1qviewp","template_h343t1r",{ // Espera la respuesta de emailjs.send
         name: this.form.value.name,
         email: this.form.value.email,
         phone: this.form.value.phone,
         message: this.form.value.message,
-        to_email: "coverartstudioleonel@gmail.com", // Asegúrate de configurar el destinatario dinámicamente
       });
 
       Swal.fire({
