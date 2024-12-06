@@ -75,6 +75,7 @@ export class ContactComponent {
         email: this.form.value.email,
         phone: this.form.value.phone,
         message: this.form.value.message,
+        to_email: "coverartstudioleonel@gmail.com", // Asegúrate de configurar el destinatario dinámicamente
       });
 
       Swal.fire({
